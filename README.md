@@ -26,9 +26,9 @@ The core idea: **the model sees, the table decides.** The on-device model only *
 
 ```mermaid
 flowchart LR
-    A[📷 Photo<br/>Camera / Library] --> B[GarmentAnalyzer<br/>Foundation Models]
-    B --> C[GarmentDescription<br/>@Generable struct]
-    C --> D[FashionRules<br/>Lookup table]
-    E[BodyShape<br/>from measurements] --> D
-    D --> F[FitVerdict]
-    F --> G[GarmentResult<br/>Results screen]
+    A["📷 Photo<br/>Camera / Library"] --> B["GarmentAnalyzer<br/>Foundation Models"]
+    B --> C["GarmentDescription<br/>@Generable struct"]
+    C --> D["FashionRules<br/>Lookup table"]
+    E["BodyShape<br/>from measurements"] --> D
+    D --> F["FitVerdict"]
+    F --> G["GarmentResult<br/>Results screen"]
