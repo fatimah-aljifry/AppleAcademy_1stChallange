@@ -32,3 +32,52 @@ flowchart LR
     E["BodyShape<br/>from measurements"] --> D
     D --> F["FitVerdict"]
     F --> G["GarmentResult<br/>Results screen"]
+
+
+⸻
+
+Requirements
+
+• Xcode with the iOS 27 SDK
+• iOS 27.0+
+• To use photo analysis on a physical device: an Apple Intelligence–capable iPhone with Apple Intelligence turned on and its model downloaded. Other screens work on any supported device.
+
+⸻
+
+Getting Started
+
+1. Clone the repository and open 1st-Challenge.xcodeproj in Xcode.
+2. Select the 1st-Challenge target → Signing & Capabilities → choose your Team.
+3. Run on a Simulator, or on a connected iPhone with Developer Mode enabled.
+4. Enter your measurements, then tap Does it fit? and add a garment photo.
+
+In debug builds, every analysis prints a [GarmentAnalyzer] line in Xcode's console showing exactly what the model returned.
+
+⸻
+
+Sources
+
+1. Look Good Feel Better: Body Confidence Workbook (2021)
+2. CBSE Academic: Dressing for Body Structure
+3. Fashion, Style & Popular Culture: doi.org/10.1386/fspc_00117_1
+4. Zong, W. (2022). Dress Style Recommendation Based on Female Body Shapes. M.A. thesis, Cornell University
+5. Construction for Fashion Design (Bloomsbury)
+6. doi.org/10.1177/0887302X20905358
+7. doi.org/10.1109/TMM.2020.2980195
+
+⸻
+
+Team
+
+Built at the Apple Developer Academy by:
+
+• Fatimah Aljifry
+• Atheer Alzhrani
+• Joud Alassiri
+• Hawraa Almuayrifi
+• Deema Alqassem
+
+Original repository: Deemaaaal/1st-challenge-
+
+
+
