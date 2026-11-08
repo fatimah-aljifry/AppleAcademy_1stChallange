@@ -32,7 +32,7 @@ flowchart LR
     E["BodyShape<br/>from measurements"] --> D
     D --> F["FitVerdict"]
     F --> G["GarmentResult<br/>Results screen"]
-
+       ```
 
 ⸻
 
